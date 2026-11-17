@@ -1,0 +1,35 @@
+name: repair_passport
+description: "RepairPassport — La historia de tus objetos, no otra lista de compras. Historial local de reparaciones, piezas, garantías y pasaporte exportable (QR, JSON, ZIP, PDF)."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^2.6.1
+  go_router: ^14.8.1
+  sqflite: ^2.4.2
+  sqflite_common_ffi: ^2.3.5
+  path: ^1.9.1
+  path_provider: ^2.1.5
+  crypto: ^3.0.6
+  http: ^1.3.0
+  flutter_secure_storage: ^9.2.4
+  file_picker: ^10.3.10
+  share_plus: ^10.1.4
+  intl: ^0.20.2
+  archive: ^4.0.4
+  pdf: ^3.11.3
+  qr_flutter: ^4.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
